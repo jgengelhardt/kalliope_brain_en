@@ -19,10 +19,7 @@ triggers:
       keywords:
         - file_path: "trigger/kalliope-EN-12samples.pmdl"
         - file_path: "trigger/jarvis.umdl"
-          sensitivity:
-            - "0.6"
-            - "0.7"
-               
+
 
 # ---------------------------
 # Speech to text
