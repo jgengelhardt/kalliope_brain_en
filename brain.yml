@@ -38,7 +38,6 @@
             - "Lay it on me"
             - "What's up?"
             - "yeah?"
-            - "How can I help you?"
             - "Howdy"
             - "Oh yeah, for sure"
 
@@ -55,5 +54,7 @@
       - say:
           message: 
             - "As children, where did Wikipedians play? In the sandbox"
-            - "Why was the lumberjack excited to discover Wikipedia? Because of all of our logs"
-
+            - "Why was the lumberjack excited to discover Wikipedia? Because of all of the logs"
+            - "Here's one from Mitch Hedberg. An escalator cannot break, it can only become stairs."
+            - "Here's one from Jim Brewer. Outside of a dog, a book is man's best friend. Inside of a dog, it's too dark to read."
+            - "Bill Hicks once said he slept eight hours a day and at least ten at night.
