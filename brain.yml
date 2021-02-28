@@ -13,26 +13,47 @@
           message:
             - "I haven't understood"
             - "I don't know this order"
-            - "Please renew your order"
             - "Would you please reword your order"
-            - "Can ou please reformulate your order"
+            - "Can you please reformulate your order"
             - "I don't recognize that order"
+            - "Ope, didn't quite catch that"
+            - "Come again?"
+            - "I could look into it, but no promises"
+            - "Sorry, I am very small and have no money"
+            - "What?"
+            - "You'll have to speak up"
 
   - name: "on-triggered-synapse"
     signals: []
     neurons:
       - say:
           message:
-            - "yes sir?"
+            - "yes?"
             - "I'm listening"
             - "I'm listening to you"
-            - "sir?"
-            - "what can i do for you?"
+            - "what can I do for you?"
             - "Speaking"
-            - "how can i help you?"
+            - "how can I help you?"
+            - "I am sworn to carry your burdens"
+            - "Lay it on me"
+            - "What's up?"
+            - "yeah?"
+            - "How can I help you?"
+            - "Howdy"
+            - "Oh yeah, for sure"
 
   - name: "on-start-synapse"
     signals: []
     neurons:
       - say:
           message: "I'm ready"
+
+  - name: "tell-me-a-joke"
+    signals:
+      - order: "tell me a joke"      
+    neurons:
+      - say:
+          message: 
+            - "As children, where did Wikipedians play? In the sandbox"
+            - "Why was the lumberjack excited to discover Wikipedia? Because of all of our logs"
+
