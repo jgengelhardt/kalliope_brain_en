@@ -5,6 +5,7 @@
         - brains/systemdate.yml
         - brains/neurotransmitter.yml
         - brains/uri.yml
+        - brains/jokes.yml
 
   - name: "order-not-found-synapse"
     signals: []
@@ -46,15 +47,3 @@
     neurons:
       - say:
           message: "I'm ready"
-
-  - name: "tell-me-a-joke"
-    signals:
-      - order: "tell me a joke"      
-    neurons:
-      - say:
-          message: 
-            - "As children, where did Wikipedians play? In the sandbox"
-            - "Why was the lumberjack excited to discover Wikipedia? Because of all of the logs"
-            - "Here's one from Mitch Hedberg. An escalator cannot break, it can only become stairs."
-            - "Here's one from Jim Brewer. Outside of a dog, a book is man's best friend. Inside of a dog, it's too dark to read."
-            - "Bill Hicks once said he slept eight hours a day and at least ten at night.
