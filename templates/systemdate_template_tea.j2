@@ -1,5 +1,7 @@
-{% if hours|int() in range(16,17) %}
+{% if hours|int() == 16 %}
 yes it is
+{% elif hours|int() == 15 %}
+tis brillig
 {% else %}
 not yet
 {% endif %}
