@@ -10,7 +10,7 @@
 
   - name: "say-local-date-from-template"
     signals:
-      - order: "which date are we"
+      - order: "what's today's date"
     neurons:
       - systemdate:
           file_template: "templates/systemdate_template.j2"
