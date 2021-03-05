@@ -41,7 +41,7 @@
             - "yeah?"
             - "howdy"
             - "oh yeah, for sure"
-            - "yes, {name}?"
+            - "yes, {{name}} ?"
 
   - name: "on-start-synapse"
     signals: []
