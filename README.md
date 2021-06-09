@@ -7,7 +7,7 @@ This is my current working configuration Kalliope in English.
 
 ## How to use
  ```bash
-git clone https://github.com/kalliope-project/kalliope_starter_en.git
+git clone https://github.com/jgengelhardt/kalliope_brain_en
 cd kalliope_starter_en
 kalliope start
 ```
